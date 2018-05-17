@@ -1,0 +1,72 @@
+@media screen and (max-width: 768px) and (min-width: 641px){
+    #header {
+        position: fixed;
+        margin: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+    }
+    
+    #left {
+        width: 2%;
+    }
+    
+    #middle {
+        width: 40%;
+      
+    }
+
+    #right {
+        width: 58%;
+    }
+
+    .wrapper {
+        margin: 20% 20% 2% 2%;
+        width: 93%;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 980px) and (min-width: 769px){
+    #header {
+        position: fixed;
+        margin: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+    }
+
+    #left {
+        width: 5%;
+    }
+
+    #middle {
+        width:35%;
+    }
+
+    #right {
+        width: 60%;
+    }
+
+    .wrapper {
+        margin: 20% 10% 10% 5%;
+        width: 75%;
+
+    }
+
+    footer {
+        width: 100%;
+    }
+}
+
+/** I tried a few different ways to style my portfolio pages so that they would scale. Only too late 
+did I realize that since I used specific px dimensions in my original css, trying to style them with percents 
+would just wreak complete havoc. I also tried assigning new specific px positions for each media tag, only to
+discover that doing so totally ruined my original page. By this point I was out of time. I
+plan to continue troubleshooting this so I can get my learn on. **/
